@@ -23,7 +23,7 @@
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $temperature = $_POST["temperature"];
                     if ($temperature < 0) {
-                        echo "The weather is Ice!";
+                        echo "The weather is freezing!";
                     } elseif ($temperature >= 0 && $temperature < 18) {
                         echo "The weather is Cool.";
                     } elseif ($temperature >= 15 && $temperature < 28) {
