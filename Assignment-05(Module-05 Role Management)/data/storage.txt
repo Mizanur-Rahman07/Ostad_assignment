@@ -1,3 +1,3 @@
 admin,Mizanur Rahman,mizan@gmail.com,123456
-manager,liton,liton@gmail.com,12345
 user,Rasel,rasel@gmail.com,123456
+manager,OstadTeam,ostadteam@gmail.com,123456
