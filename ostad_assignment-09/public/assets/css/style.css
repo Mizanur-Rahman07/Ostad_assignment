@@ -1,0 +1,80 @@
+body {
+    padding-top: 56px; /* Adjusted for the fixed navbar */
+	background-color: #f8f9fa;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+h2{
+	text-transform: uppercase;
+}
+
+/* about me */
+.personal-info ul li {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.header-content{
+	padding-top: 100px;
+}
+.header-content h1{
+	padding-bottom: 15px;
+}
+.header-content h4{
+	padding-bottom: 15px;
+}
+
+#contact .contact-section {
+background-color: #ffffff;
+border-radius: 8px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+padding: 40px;
+margin-top: 40px;
+}
+
+.contact-section h2 {
+color: #333333;
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+margin-bottom: 20px;
+padding: 10px;
+border: 1px solid #ced4da;
+border-radius: 4px;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+border-color: #007bff;
+outline: 0;
+box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.contact-form button {
+padding: 10px 20px;
+font-size: 16px;
+background-color: #007bff;
+color: #ffffff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.contact-form button:hover {
+background-color: #0056b3;
+}
+
+
+/* contact links */
+.contact-links {
+    margin-top: 30px;
+}
+.contact-links ul li a{
+	font-size: 25px;
+	color: #000;
+}
