@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -34,9 +33,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/edit_product/{id}', [ProductController::class, 'editProduct'])->name('edit.product');
     Route::post('/update_product', [ProductController::class, 'updateProduct'])->name('update.product');
     Route::post('/delete_product', [ProductController::class, 'deleteProduct'])->name('delete.product');
-
-    Route::get('/dashboard', [DashboardController::class, 'dashboardCard'])->name('main.dashboard');
-
 
 
 
